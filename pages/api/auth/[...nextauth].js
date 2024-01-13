@@ -5,7 +5,7 @@ import clientPromise from "../../../lib/mongodb";
 
 const adminEmails = ['donmark2k@gmail.com'];
 
-
+//https://console.cloud.google.com/apis/credentials?authuser=1&project=neural-sol-410711 for client id
 export const authOptions = {
   secret: process.env.SECRET,
   providers: [
